@@ -1,0 +1,18 @@
+/* Định dạng cho button và hình ảnh */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+button img {
+    width: 4em;
+    height: 4em;
+}
+
+/* Hiển thị viền sáng khi được chọn */
+.selected {
+    border: 3px solid #000;
+}
